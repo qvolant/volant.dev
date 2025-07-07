@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
+    <link rel="manifest" href="/static/img/site.webmanifest">
+    <title>Quentin Volant - Software Engineer & Python/Django Specialist</title>
+    <meta name="description" content="French software engineer with 20+ years experience crafting dynamic web applications, automation solutions, and scalable systems using Django/Python. Let's build something innovative.">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook (and LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://volant.dev/">
+    <meta property="og:title" content="Quentin Volant - Software Engineer & Python/Django Specialist">
+    <meta property="og:description" content="French software engineer with 20+ years experience crafting dynamic web applications, automation solutions, and scalable systems using Django/Python.">
+    <meta property="og:image" content="https://volant.dev/images/social-preview.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@QVolant">
+    <meta name="twitter:creator" content="@QVolant">
+    <meta name="twitter:title" content="Quentin Volant - Software Engineer & Python/Django Specialist">
+    <meta name="twitter:description" content="French software engineer with 20+ years experience crafting dynamic web applications, automation solutions, and scalable systems using Django/Python.">
+    <meta name="twitter:image" content="https://volant.dev/images/social-preview.jpg">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://volant.dev/">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Quentin Volant",
+            "url": "https://volant.dev",
+            "jobTitle": "Software Engineer",
+            "description": "Specialist in Django/Python development creating web applications and automation solutions",
+            "knowsAbout": [
+                "Python",
+                "Django",
+                "JavaScript",
+                "Web Applications",
+                "Websites",
+                "Automation Engineering",
+                "API Development"
+            ],
+            "experienceYears": "20",
+            "sameAs": [
+                "https://www.linkedin.com/in/quentin-volant/",
+                "https://github.com/qvolant",
+                "https://gitlab.com/qvolant",
+                "https://x.com/QVolant"
+            ]
+        }
+    </script>
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.6/dist/htmx.min.js"
+            integrity="sha384-Akqfrbj/HpNVo8k11SXBb6TlBWmXXlYQrCSqEWmyKJe+hDm3Z/B2WVG4smwBkRVm"
+            crossorigin="anonymous"></script>
+    <script src="/static/js/main.js"></script>
+</head>
+<body hx-boost="true">
+<div id="container">
+    <div id="sidebar">
+        <header>
+            <img src="/static/img/avatar.png" alt="My avatar">
+            <div>
+                <h1>Quentin Volant</h1>
+                <h2>Software Engineer</h2>
+            </div>
+        </header>
+
+        <svg width="80" viewBox="0 0 31 16" id="menu-button">
+            <defs id="defs1"/>
+            <g transform="translate(-42.456426,-42.443634)">
+                <text style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.9992px;font-family:'Barlow Condensed';-inkscape-font-specification:'Barlow Condensed, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0268686;stroke-dasharray:none"
+                      x="31.682722"
+                      y="64.388107"
+                      id="text1"
+                      transform="scale(1.3026374,0.76767331)">
+                    <tspan style="fill-opacity:1;stroke:none;stroke-width:0.0268686;stroke-dasharray:none"
+                           x="31.682722"
+                           y="64.388107">
+                        MENU
+                    </tspan>
+                </text>
+                <g style="fill:#000000;stroke:none;stroke-width:1.00396;stroke-dasharray:none"
+                   transform="matrix(0.1653646,0,0,0.06614584,36.219537,45.886302)">
+                    <path d="M 42.34,77.66 A 8.0044488,8.0044488 0 0 1 53.66,66.34 L 128,140.69 202.34,66.34 a 8.0044488,8.0044488 0 0 1 11.32,11.32 l -80,80 a 8,8 0 0 1 -11.32,0 z M 208,184 H 48 a 8,8 0 0 0 0,16 h 160 a 8,8 0 0 0 0,-16 z"
+                          style="stroke:none;stroke-width:1.00396;stroke-dasharray:none"/>
+                </g>
+            </g>
+        </svg>
+
+        <nav>
+            <a href="/index.html">About me</a>
+            <a href="/skills.html">Skills and Services</a>
+            <a href="/portfolio.html" class="is-active">Portfolio</a>
+            <!-- <a href="/resume.html">Resume</a> -->
+            <a href="/contact.html">Contact</a>
+        </nav>
+        <footer>
+            <a href="https://www.linkedin.com/in/quentin-volant/" target="_blank" class="btn" style="padding: 0.5rem"
+               title="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256" style="fill: #222">
+                    <path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
+                </svg>
+            </a>
+            <a href="https://github.com/qvolant" target="_blank" class="btn" style="padding: 0.5rem" title="Github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256" style="fill: #222">
+                    <path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path>
+                </svg>
+            </a>
+            <a href="https://gitlab.com/users/qvolant/" target="_blank" class="btn" style="padding: 0.5rem"
+               title="Gitlab">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256" style="fill: #222">
+                    <path d="M230.15,117.1,210.25,41a11.94,11.94,0,0,0-22.79-1.11L169.78,88H86.22L68.54,39.87A11.94,11.94,0,0,0,45.75,41L25.85,117.1a57.19,57.19,0,0,0,22,61l73.27,51.76a11.91,11.91,0,0,0,13.74,0l73.27-51.76A57.19,57.19,0,0,0,230.15,117.1ZM58,57.5,73.13,98.76A8,8,0,0,0,80.64,104h94.72a8,8,0,0,0,7.51-5.24L198,57.5l13.07,50L128,166.21,44.9,107.5ZM40.68,124.11,114.13,176,93.41,190.65,57.09,165A41.06,41.06,0,0,1,40.68,124.11Zm87.32,91-20.73-14.65L128,185.8l20.73,14.64ZM198.91,165l-36.32,25.66L141.87,176l73.45-51.9A41.06,41.06,0,0,1,198.91,165Z"></path>
+                </svg>
+            </a>
+            <p id="siret">SIRET: 919 770 230 00010</p>
+        </footer>
+    </div>
+    <main id="main">
+        <div id="content">
+            <section id="portfolio">
+                <header>
+                    <h1 class="section-title">My <b>work</b></h1>
+                    <p>Here's a curated selection of <b>web development projects</b> I've worked on as a <b>fullstack
+                        software engineer</b>. These examples highlight my experience in building <b>scalable back-end
+                        systems</b>, <b>clean user interfaces</b>, and <b>responsive</b>, <b>high-performance
+                        websites</b> tailored to client needs.</p>
+                </header>
+                <main>
+                    <article>
+                        <header>
+                            <h2 class="section-subtitle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 256 256">
+                                    <path d="M224,56V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216A8,8,0,0,1,224,56Z"
+                                          opacity="0.2"></path>
+                                    <path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM80,84A12,12,0,1,1,68,72,12,12,0,0,1,80,84Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,120,84Z"></path>
+                                </svg>
+                                IRFO – Pedometer Challenge Web App
+                            </h2>
+                            <span class="badge">Symfony</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">VueJS</span>
+                            <img src="/static/img/portfolio/irfo.png" alt="Logo IRFO" class="project-logo"
+                                 loading="lazy">
+                        </header>
+                        <main>
+                            <p>
+                                I developed a custom web application for <b>IRFO (Institut des Rencontres et de la
+                                Forme)</b> to support a company-wide <b>pedometer challenge</b> aimed at encouraging
+                                physical activity among employees and partner organizations.
+                            </p>
+                            <p>
+                                The platform automatically synced daily pedometer data and featured a <b>robust admin
+                                dashboard</b> for managing custom challenges, both <b>global</b> and <b>per-company</b>.
+                                Users could track performance through <b>leaderboards</b>, <b>team rankings</b>, and <b>interactive
+                                graphs</b> displaying metrics such as <b>steps walked</b>, <b>calories burned</b>, and
+                                <b>overall engagement</b>.
+                            </p>
+                            <p>Built with a focus on performance and usability, the app included :</p>
+                            <ul>
+                                <li>Real-time data visualization</li>
+                                <li>Custom challenge logic and filtering</li>
+                                <li>Secure authentication and role-based access</li>
+                                <li>Clean, responsive UI for desktop and mobile users</li>
+                            </ul>
+                        </main>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 class="section-subtitle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 256 256">
+                                    <path d="M224,56V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216A8,8,0,0,1,224,56Z"
+                                          opacity="0.2"></path>
+                                    <path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM80,84A12,12,0,1,1,68,72,12,12,0,0,1,80,84Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,120,84Z"></path>
+                                </svg>
+                                Muteco – Field Survey & Reporting Web App
+                            </h2>
+                            <span class="badge">FastAPI</span>
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">ReactJS</span>
+                            <span class="badge">Docker</span>
+                            <img src="/static/img/portfolio/medef.png" alt="Logo Medef" class="project-logo"
+                                 loading="lazy">
+                        </header>
+                        <main>
+                            <p>
+                                As part of the broader <b>Muteco initiative</b> led by <b>MEDEF</b>, I developed a web
+                                application designed to assist surveyors during on-site visits to companies. The tool
+                                was used on tablets to collect structured data through a series of dynamic forms and
+                                questionnaires.
+                            </p>
+                            <p>
+                                Once the forms were completed, the app automatically generated <b>custom reports</b>
+                                with <b>calculated indicators</b>, <b>summary tables</b>, and <b>data visualizations</b>
+                                to help identify workforce trends, training needs, and economic challenges at the
+                                company level.
+                            </p>
+                            <p>Key aspects of the app included: :</p>
+                            <ul>
+                                <li>Touch-optimized <b>mobile-friendly interface</b></li>
+                                <li>Complex <b>form workflows</b> with validation and conditional logic</li>
+                                <li><b>Real-time data processing</b> and automated chart generation</li>
+                                <li><b>Offline support</b> and reliable sync mechanisms</li>
+                            </ul>
+                        </main>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 class="section-subtitle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 256 256">
+                                    <path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"></path>
+                                    <path d="M128,24h0A104,104,0,1,0,232,128,104.12,104.12,0,0,0,128,24Zm88,104a87.61,87.61,0,0,1-3.33,24H174.16a157.44,157.44,0,0,0,0-48h38.51A87.61,87.61,0,0,1,216,128ZM102,168H154a115.11,115.11,0,0,1-26,45A115.27,115.27,0,0,1,102,168Zm-3.9-16a140.84,140.84,0,0,1,0-48h59.88a140.84,140.84,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.84a157.44,157.44,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154,88H102a115.11,115.11,0,0,1,26-45A115.27,115.27,0,0,1,154,88Zm52.33,0H170.71a135.28,135.28,0,0,0-22.3-45.6A88.29,88.29,0,0,1,206.37,88ZM107.59,42.4A135.28,135.28,0,0,0,85.29,88H49.63A88.29,88.29,0,0,1,107.59,42.4ZM49.63,168H85.29a135.28,135.28,0,0,0,22.3,45.6A88.29,88.29,0,0,1,49.63,168Zm98.78,45.6a135.28,135.28,0,0,0,22.3-45.6h35.66A88.29,88.29,0,0,1,148.41,213.6Z"></path>
+                                </svg>
+                                QueerView.net – Anonymous Workplace Review Platform
+                            </h2>
+                            <span class="badge">Django</span>
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">Bootstrap</span>
+                            <span class="badge">Docker</span>
+                            <span class="badge">Sentry</span>
+                            <img src="/static/img/portfolio/queerview.png" alt="Logo QueerView" class="project-logo"
+                                 loading="lazy">
+                        </header>
+                        <main>
+                            <p>
+                                I developed <b>QueerView.net</b>, a <b>community-powered web platform</b> where LGBTQIA+
+                                individuals can <b>anonymously review their employers</b> based on inclusivity, respect,
+                                safety, and workplace culture. The platform is designed to promote transparency in the
+                                workplace and empower marginalized voices through collective experiences.
+                            </p>
+                            <p>
+                                In addition to the public-facing review system, I also built a <b>dedicated employer
+                                portal</b>, allowing organizations to manage their profile, respond to reviews, and
+                                demonstrate their commitment to diversity and inclusion. A <b>job board</b> and a <b>blog
+                                section</b> round out the platform, offering resources and opportunities tailored to
+                                LGBTQIA+ professionals.
+                            </p>
+                            <p>
+                                Key features included :
+                            </p>
+                            <ul>
+                                <li>An <b>anonymous review system</b> with moderation tools</li>
+                                <li>Company profiles with <b>aggregated scores</b> across key diversity and inclusion
+                                    metrics
+                                </li>
+                                <li>A separate <b>employer portal</b> allowing organizations to respond to reviews and
+                                    showcase their commitment to LGBTQIA+ inclusivity
+                                </li>
+                                <li>A <b>responsive, accessible UI</b> optimized for both desktop and mobile users</li>
+                            </ul>
+                        </main>
+                        <footer>
+                            <a href="https://www.queerview.net/" target="_blank" class="btn">Visit Website</a>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 class="section-subtitle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 256 256">
+                                    <path d="M216,152v48a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V152a8,8,0,0,1,8-8H208A8,8,0,0,1,216,152ZM208,48H48a8,8,0,0,0-8,8v48a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V56A8,8,0,0,0,208,48Z"
+                                          opacity="0.2"></path>
+                                    <path d="M208,136H48a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V152A16,16,0,0,0,208,136Zm0,64H48V152H208v48Zm0-160H48A16,16,0,0,0,32,56v48a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V56A16,16,0,0,0,208,40Zm0,64H48V56H208v48ZM192,80a12,12,0,1,1-12-12A12,12,0,0,1,192,80Zm0,96a12,12,0,1,1-12-12A12,12,0,0,1,192,176Z"></path>
+                                </svg>
+                                NodeWatch – Smart Infrastructure Monitoring
+                            </h2>
+                            <span class="badge">FastAPI</span>
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">Docker</span>
+                            <span class="badge">Kubernetes</span>
+                            <span class="badge">Prometheus</span>
+                            <span class="badge">Grafana</span>
+                            <span class="badge">Redis</span>
+                            <img src="/static/img/portfolio/nw.png" alt="Logo NodeWatch" class="project-logo"
+                                 loading="lazy">
+                        </header>
+                        <main>
+                            <p>
+                                NodeWatch is a custom-built <b>monitoring and alerting platform</b> developed for a
+                                cloud service provider <b>managing infrastructure across multiple regions</b>. Designed
+                                to provide <b>real-time visibility</b> into <b>server health</b>, <b>traffic flow</b>,
+                                and <b>system performance</b>, the application gave administrators full control over
+                                observability tools through a clean, responsive interface. The dashboard displayed CPU
+                                load, memory usage, disk space, and latency metrics, while allowing operators to set
+                                dynamic thresholds and configure alerts.
+                            </p>
+                            <p>
+                                The system included a <b>lightweight agent</b> installed on each node, <b>communicating
+                                securely</b> with a central backend. NodeWatch supported <b>multi-tenant
+                                environments</b>, <b>role-based access</b>, and <b>integration with third-party</b>
+                                messaging systems to dispatch alerts. It also featured a time-series database for <b>historical
+                                performance tracking</b> and a compact mobile view for on-call engineers.
+                            </p>
+                            <p>
+                                Key features :
+                            </p>
+                            <ul>
+                                <li>Real-time server metrics and dynamic alerting</li>
+                                <li>Lightweight agents with secure data transmission</li>
+                                <li>A Multi-tenant access and role-based permissions</li>
+                                <li>Historical data and performance insights</li>
+                            </ul>
+                        </main>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 class="section-subtitle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 256 256">
+                                    <path d="M152,40V72a8,8,0,0,1-8,8H112a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h32A8,8,0,0,1,152,40ZM80,168H48a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8H80a8,8,0,0,0,8-8V176A8,8,0,0,0,80,168Zm128,0H176a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h32a8,8,0,0,0,8-8V176A8,8,0,0,0,208,168Z"
+                                          opacity="0.2"></path>
+                                    <path d="M232,112H136V88h8a16,16,0,0,0,16-16V40a16,16,0,0,0-16-16H112A16,16,0,0,0,96,40V72a16,16,0,0,0,16,16h8v24H24a8,8,0,0,0,0,16H56v32H48a16,16,0,0,0-16,16v32a16,16,0,0,0,16,16H80a16,16,0,0,0,16-16V176a16,16,0,0,0-16-16H72V128H184v32h-8a16,16,0,0,0-16,16v32a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V176a16,16,0,0,0-16-16h-8V128h32a8,8,0,0,0,0-16ZM112,40h32V72H112ZM80,208H48V176H80Zm128,0H176V176h32Z"></path>
+                                </svg>
+                                SwiftFreight API – Logistics Integration Suite
+                            </h2>
+                            <span class="badge">FastAPI</span>
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">Docker</span>
+                            <span class="badge">Kubernetes</span>
+                            <span class="badge">Terraform</span>
+                            <span class="badge">Sentry</span>
+                            <img src="/static/img/portfolio/sf.png" alt="Logo SwiftFreight" class="project-logo"
+                                 loading="lazy">
+                        </header>
+                        <main>
+                            <p> I designed and developed the <b>core API layer</b> for SwiftFreight, a logistics hub
+                                enabling real-time freight tracking and intelligent package routing for shipping
+                                companies. This <b>high-availability RESTful API</b> served as the central nervous
+                                system, seamlessly connecting <b>mobile apps</b>, <b>client dashboards</b>, and <b>third-party
+                                    transport providers</b>. The system processed millions of requests daily, handling
+                                critical operations like <b>real-time GPS tracking</b>, <b>automated shipment status
+                                    updates</b>, and <b>end-to-end billing workflows</b>—all while maintaining
+                                sub-second response times. </p>
+                            <p> To future-proof the infrastructure, I implemented <b>strategic versioning</b> and <b>dynamic
+                                rate limiting</b>, ensuring backward compatibility and protecting against traffic
+                                spikes. The API also supported <b>digital proof-of-delivery</b> (e-signatures/photo
+                                capture) and <b>webhook integrations</b> for event-driven alerts. The architecture prioritized <b>scalability</b>
+                                through microservices and <b>security</b> with OAuth 2.0 and encrypted payloads. </p>
+                            <p>Key features and achievements:</p>
+                            <ul>
+                                <li><b>Unified logistics API</b> consolidating 10+ carrier systems into a single
+                                    interface
+                                </li>
+                                <li><b>WebSocket support</b> for live shipment tracking and notifications</li>
+                                <li><b>Automated billing engine</b> with multi-currency support</li>
+                                <li><b>Comprehensive docs</b> (Swagger/OpenAPI) for developer adoption</li>
+                                <li><b>99.99% uptime</b> via Kubernetes orchestration and failover protocols</li>
+                            </ul>
+                        </main>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 class="section-subtitle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 256 256">
+                                    <path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"></path>
+                                    <path d="M128,24h0A104,104,0,1,0,232,128,104.12,104.12,0,0,0,128,24Zm88,104a87.61,87.61,0,0,1-3.33,24H174.16a157.44,157.44,0,0,0,0-48h38.51A87.61,87.61,0,0,1,216,128ZM102,168H154a115.11,115.11,0,0,1-26,45A115.27,115.27,0,0,1,102,168Zm-3.9-16a140.84,140.84,0,0,1,0-48h59.88a140.84,140.84,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.84a157.44,157.44,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154,88H102a115.11,115.11,0,0,1,26-45A115.27,115.27,0,0,1,154,88Zm52.33,0H170.71a135.28,135.28,0,0,0-22.3-45.6A88.29,88.29,0,0,1,206.37,88ZM107.59,42.4A135.28,135.28,0,0,0,85.29,88H49.63A88.29,88.29,0,0,1,107.59,42.4ZM49.63,168H85.29a135.28,135.28,0,0,0,22.3,45.6A88.29,88.29,0,0,1,49.63,168Zm98.78,45.6a135.28,135.28,0,0,0,22.3-45.6h35.66A88.29,88.29,0,0,1,148.41,213.6Z"></path>
+                                </svg>
+                                MediaVacances.com – Vacation Rental Platform
+                            </h2>
+                            <span class="badge">PHP</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Bootstrap</span>
+                            <span class="badge">jQuery</span>
+                            <img src="/static/img/portfolio/mv.png" alt="Logo MediaVacances.com" class="project-logo"
+                                 loading="lazy">
+                        </header>
+                        <main>
+                            <p>
+                                I contributed to the development and maintenance of <b>MediaVacances.com</b>, a
+                                long-standing <b>vacation rental website</b> offering direct bookings between property
+                                owners and travelers across Europe.
+                            </p>
+                            <p>
+                                My work involved improving both the <b>back-end architecture</b> and <b>user-facing
+                                features</b> of this large-scale web platform. Key tasks included :
+                            </p>
+                            <ul>
+                                <li>Refactoring legacy code for better <b>performance</b>, <b>maintainability</b>, and
+                                    <b>scalability</b></li>
+                                <li>Enhancing <b>search and filtering</b> functionality for listings</li>
+                                <li>Implementing updates to the <b>booking and messaging systems</b></li>
+                                <li>Optimizing <b>page speed</b> and responsiveness across devices</li>
+                            </ul>
+                        </main>
+                        <footer>
+                            <a href="https://www.mediavacances.com/" target="_blank" class="btn">Visit Website</a>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 class="section-subtitle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 256 256">
+                                    <path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"></path>
+                                    <path d="M128,24h0A104,104,0,1,0,232,128,104.12,104.12,0,0,0,128,24Zm88,104a87.61,87.61,0,0,1-3.33,24H174.16a157.44,157.44,0,0,0,0-48h38.51A87.61,87.61,0,0,1,216,128ZM102,168H154a115.11,115.11,0,0,1-26,45A115.27,115.27,0,0,1,102,168Zm-3.9-16a140.84,140.84,0,0,1,0-48h59.88a140.84,140.84,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.84a157.44,157.44,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154,88H102a115.11,115.11,0,0,1,26-45A115.27,115.27,0,0,1,154,88Zm52.33,0H170.71a135.28,135.28,0,0,0-22.3-45.6A88.29,88.29,0,0,1,206.37,88ZM107.59,42.4A135.28,135.28,0,0,0,85.29,88H49.63A88.29,88.29,0,0,1,107.59,42.4ZM49.63,168H85.29a135.28,135.28,0,0,0,22.3,45.6A88.29,88.29,0,0,1,49.63,168Zm98.78,45.6a135.28,135.28,0,0,0,22.3-45.6h35.66A88.29,88.29,0,0,1,148.41,213.6Z"></path>
+                                </svg>
+                                Rivages Propres – Coastal Waste Management & Volunteer Coordination Platform
+                            </h2>
+                            <span class="badge">PHP</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Materialize</span>
+                            <span class="badge">jQuery</span>
+                            <img src="/static/img/portfolio/rp.png" alt="Logo Rivages Propres"
+                                 class="project-logo" loading="lazy">
+                        </header>
+                        <main>
+                            <p>My first client ! A <b>custom web platform</b> for Rivages Propres, a French
+                                environmental
+                                NGO dedicated to combating coastal pollution through organized beach cleanups. The
+                                solution streamlined their <b>volunteer coordination</b>, <b>event management</b>, and
+                                <b>data tracking</b>, replacing manual processes with an intuitive, CMS-like system. It
+                                empowered
+                                administrators to create cleanup campaigns, manage registrations, and analyze waste
+                                collection metrics—all while ensuring accessibility for non-technical users. </p>
+                            <p> The platform featured a <b>dynamic map interface</b> to visualize cleanup sites and
+                                collected waste data, reinforcing the NGO’s mission with <b>real-time impact metrics</b>.
+                                I implemented <b>role-based dashboards</b> for organizers, volunteers, and partners,
+                                alongside tools to generate <b>PDF reports</b> and <b>public-facing transparency
+                                    dashboards</b>. Emphasis on <b>mobile responsiveness</b> allowed volunteers to
+                                engage seamlessly from any device during fieldwork. </p>
+                            <p>Key aspects of the project included:</p>
+                            <ul>
+                                <li><b>Custom CMS</b> for content updates and event management without coding</li>
+                                <li><b>Geolocation integration</b> for mapping cleanup zones and volunteer check-ins
+                                </li>
+                                <li><b>Data visualization</b> (charts/graphs) to showcase environmental impact</li>
+                                <li><b>Secure authentication</b> for organizers and volunteer accounts</li>
+                            </ul>
+                            <footer>
+                                <a href="https://www.rivagespropres.fr/" target="_blank" class="btn">Visit Website</a>
+                            </footer>
+                    </article>
+                </main>
+            </section>
+        </div>
+    </main>
+</div>
+
+
+</body>
+</html>
