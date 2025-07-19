@@ -10,6 +10,11 @@ document.addEventListener("htmx:load", function() {
 		sidebarNav.style.height = isMenuHidden ? 'auto' : '0';
 		sidebarFooter.style.height = isMenuHidden ? 'auto' : '0';
 		isMenuHidden = !isMenuHidden;
+		if (isMenuHidden) {
+			menuButton.classList.remove('is-open');
+		} else {
+			menuButton.classList.add('is-open');
+		}
 	})
 });
 

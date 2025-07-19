@@ -325,7 +325,19 @@ article {
     }
 
     #menu-button {
-        display: block;
+        display: flex;
+        margin-bottom: -2rem;
+        gap: 1rem;
+        svg {
+            position: relative;
+            top: 5px;
+        }
+        &.is-open {
+            margin-bottom: -1rem;
+            svg {
+                transform: rotate(180deg);
+            }
+        }
     }
 }
 
