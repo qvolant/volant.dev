@@ -149,7 +149,7 @@ article {
         justify-content: space-around;
         align-items: center;
         padding-bottom: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
         img {
             width: calc(var(--sidebar-width) * 0.5);
@@ -182,7 +182,7 @@ article {
         align-items: center;
 
         a {
-            padding: 1rem 0;
+            padding: 0.5rem 0;
 
             &::after {
                 content: '';
@@ -223,12 +223,12 @@ article {
     background-color: #222;
     border-radius: 25px;
 
-    padding: 0;
+    padding: 1rem;
     height: 100%;
 }
 
 #content {
-    padding: 4rem;
+    padding: 3rem;
     box-sizing: border-box;
     height: 100%;
     overflow-x: hidden;
@@ -271,7 +271,10 @@ article {
 }
 
 @media all and (max-width: 500px) {
-    #main, #content {
+    #main {
+        padding: 0;
+    }
+    #content {
         padding: 1rem;
     }
 }
@@ -385,6 +388,12 @@ article {
     width: 100%;
     flex: 1;
 
+    &.btn-icon {
+        padding: 0.25rem;
+        width: auto;
+        flex: unset;
+    }
+
     &:after {
         background-clip: padding-box;
         background-color: var(--main-color);
@@ -430,4 +439,34 @@ article {
     margin: 1rem 0;
     max-width: 100%;
     height: auto;
+}
+
+.timeline {
+    border-left: 1px solid var(--main-color);
+    padding-top: 1.5rem;
+    li {
+        margin: 0 0 1.5rem 21px;
+        list-style: disc;
+        &::marker {
+            color: var(--main-color);
+            font-size: 2rem;
+        }
+        > * {
+            position: relative;
+            bottom: 3px;
+        }
+        > h3 a {
+            color: var(--main-color);
+        }
+        > p {
+            margin-bottom: 0;
+            font-size: 1.1rem;
+            margin-top: -0.5rem;
+            &:last-child {
+                font-size: 1rem;
+                line-height: 1.5rem;
+                margin-top: 1rem;
+            }
+        }
+    }
 }
