@@ -158,7 +158,7 @@ article {
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 2.75rem;
             font-weight: 700;
             text-align: center;
             font-family: "Bubbler One", sans-serif;
@@ -260,7 +260,8 @@ article {
     font-size: 0.75rem;
     width: 100%;
     text-align: center;
-    margin-bottom: -0.6rem;
+    margin-bottom: -0.25rem;
+    margin-top: -1rem;
 }
 
 #character-counter {
