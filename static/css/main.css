@@ -209,7 +209,7 @@ article {
         align-items: flex-end;
         gap: 1rem;
         flex-wrap: wrap;
-        padding: 0 4rem;
+        padding: 4rem;
     }
 }
 
@@ -254,14 +254,6 @@ article {
     .section-title {
         margin-bottom: 4rem;
     }
-}
-
-#siret {
-    font-size: 0.75rem;
-    width: 100%;
-    text-align: center;
-    margin-bottom: -0.25rem;
-    margin-top: -1rem;
 }
 
 #character-counter {
